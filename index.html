@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Kristen's Blog</h1>
+        <div class="container">
+            <input type="checkbox" id="switch" class="checkbox">
+            <label for="switch" class="label">
+                <span class="ball"></span>
+            </label>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Create your Blog!</h2>
+        <form id="blogForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="content">Blog Content:</label>
+                <textarea id="content" name="content" rows="6" required></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
+</body>
+</html>
